@@ -52,3 +52,19 @@ ctrl+c: Cuando alguna celda de jupyter or ipython se demore mucho
 %pwd: print working directory
 %who, %who_ls, %whos: muestra las variables existentes
 %xdel name_of_your_variale: elimina la variable
+
+# Sintaxis Python
+
+```python
+values = 1, 2, 3, 4, 5
+
+a, b, *rest = values
+
+print(a, b) # 1 2
+print(rest) # [3, 4, 5]
+
+# Cuando el resto de los valores no importan
+c, d, *_ = values
+
+print(c, d) # 1 2
+```
